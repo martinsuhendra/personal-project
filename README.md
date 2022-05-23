@@ -19,11 +19,18 @@ Stack that i'm using:
 
 In the project directory, you can run:
 
-### `npm star` or `yarn start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+[Deployment Link](https://628bb7eeb384e10073cef4ab--harmonious-alpaca-4bc71e.netlify.app/) - https://628bb7eeb384e10073cef4ab--harmonious-alpaca-4bc71e.netlify.app/
 
-Deployment Link:
-https://628bb7eeb384e10073cef4ab--harmonious-alpaca-4bc71e.netlify.app/
+## Additional Notes
+
+Some techniques that i've been using to improve the web performance of this apps:
+1. useMemo hooks to avoid unnecessary-rendering
+2. Debounce search input
+
+
+
