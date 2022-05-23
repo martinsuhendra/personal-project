@@ -9,7 +9,7 @@ interface HeadingProps extends SystemProps {
 
 const Heading: FunctionComponent<HeadingProps> = ({label, ...props}) => {
   return (
-    <Typography variant="h3" {...props}>
+    <Typography color="primary" variant="h4" {...props}>
       {label}
     </Typography>
   );
